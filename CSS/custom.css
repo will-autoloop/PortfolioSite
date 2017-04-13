@@ -1,0 +1,91 @@
+/* Media Queries */
+
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: @screen-xs) {
+	#title {font-size: 1.4em;
+	}
+}
+
+/* Page-wide elements */
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+}
+
+
+
+#logo{
+	max-width: 100px;
+	
+}
+
+/* Header elements */
+
+.header {
+	display: flex;
+	width: 100%;
+}
+
+.logo {
+	float: left;
+}
+
+#title {
+	width: 100%;
+}
+
+#divider {
+	height: 3px;
+	width: 1200px;
+	background-color: #7d97ad;
+	margin-bottom: 10px;
+}
+
+/* Typeography */
+
+h1, h4 {
+	
+	text-align: right;
+	text-transform: uppercase;
+	margin: 1px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: normal;
+}
+
+h2, h5 {
+	margin: auto;
+	text-align: center;
+}
+
+
+
+/* Body and Gallery */
+
+#hero {
+	max-width: 100%;
+}
+
+#featured {
+	width: 100%;
+	color: #7d97ad;
+	text-align: left;
+	font-family: 'Julius Sans One', sans-serif;
+	text-transform: none;
+}
+
+#projects, #hs, #locations {
+	margin: auto;
+	display: block;
+}
+
+
+
