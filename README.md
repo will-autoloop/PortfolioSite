@@ -1,4 +1,4 @@
-# ${1:Project Name}
+# Udacity Portfolio Process
 
 A simple project to demonstrate the understanding of HTML, CSS, and resposive design.  
 Part of the Udacity Full Stack Developer Nanadegree Program
