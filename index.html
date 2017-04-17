@@ -5,7 +5,7 @@
 	<!-- Include the required <title> content -->
 	<title>Udacity Portfolio Project</title>
 	<!-- Define meta and css links -->
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
 	<!-- Set viewport including the maximum scale to accomodate iOS devices-->
 	<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
 	<!-- Link to both custom and bootstrap css files -->
@@ -24,49 +24,67 @@
 					<div class="logo">
 						<img id="logo" src="img/logo.png" alt="logo">
 					</div>
+
 					<div id="title" class="info">
 						<h1>William Howell</h1>
 						<h4>Sr. Program Manager</h4>
 					</div>
+
 				</div>
 			</div>
+
 			<div class="container">
 				<div id="divider" class="col col-md-12"></div>
 			</div>
 		</header>
+
 		<div class="container">
-			<div class="col col-md-12">
-				<img id="hero" src="img/hero.jpg" alt="hero image">
+
+			<div class="row">
+				<div class="col col-md-12">
+					<img id="hero" class="img-responsive" src="img/hero.jpg" alt="hero image">
+				</div>
 			</div>
+
 		</div>
 
-		<section class="gallery">
-			<div class="container">
-				<h3 id="featured">Featured Work</h3>
-			</div>
-				
+		<main>
+			<section class="gallery">
 				<div class="container">
+					<h3 id="featured">Featured Work</h3>
+				</div>
+
+				<div class="container">
+					<section class="row">
 					
 						<div class="col col-md-4">
-							<img id="hs" src="img/skills_1x.jpg" alt="skills image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Skills List" data-content="Project Management, Rugby Coach, World Traveller">
+							<img class="img-responsive" src="img/skills_1x.jpg" alt="skills image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Skills List" data-content="Project Management, Rugby Coach, World Traveller">
 							<h2>Skills</h2>
-							<h5><a href="https://www.linkedin.com/in/wdhowell00/">Current Skills</a></h5>
+							<h5><a href="https://www.linkedin.com/in/wdhowell00/" target="_blank">Current Skills</a></h5>
+							<p>Click on the image to see some of my skills</p>
 						</div>
 										
 						<div class="col col-md-4">
-							<img id="locations" src="img/locations_1x.jpg" alt="location image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Locations List" data-content="London, Boston, Hong Kong">
+							<img class="img-responsive" src="img/locations_1x.jpg" alt="location image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Locations List" data-content="London, Boston, Hong Kong">
 							<h2>Locations</h2>
-							<h5><a href="https://www.google.com/maps/d/u/0/viewer?mid=1KmPbBv8nYLo2V-LFR1mFF-F1i_Q&hl=en&ll=38.370656331516166%2C-122.99331564999994&z=3">See the Map</a></h5>
+							<h5><a href="https://www.google.com/maps/d/u/0/viewer?mid=1KmPbBv8nYLo2V-LFR1mFF-F1i_Q&hl=en&ll=38.370656331516166%2C-122.99331564999994&z=3" target="_blank">See the Map</a></h5>
+							<p>Click on the image to see some of my locations</p>
 						</div>
 					
 						<div class="col col-md-4">
-							<img id="projects" src="img/projects1_1x.jpg" alt="projects image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Projects List" data-content="Udacity Student, HomeScholarz.com, Autoloop.com">
+							<img class="img-responsive" src="img/projects1_1x.jpg" alt="projects image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Projects List" data-content="Udacity Student, HomeScholarz.com, Autoloop.com">
 							<h2>Projects</h2>
-							<h5><a href="https://homescholarz.com">Look at a current project</h5>
+							<h5><a href="https://homescholarz.com" target="_blank">Look at a current project</a></h5>
+							<p>Click on the image to see some of my projects</p>
 						</div>
-					
+
+					</section>
+
 				</div>
-		</section>
+
+			</section>
+
+		</main>
 
 		<!-- Add links to relevant Javascript files for use in popovers -->
 		<script src="js/jquery-3.2.1.min.js"></script>	
