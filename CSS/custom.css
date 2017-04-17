@@ -21,9 +21,16 @@
 	padding: 0px;
 }
 
-
-
-#logo{
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	text-align: center;
+}
+ 
+#logo {
 	max-width: 100px;
 	
 }
@@ -52,16 +59,29 @@
 
 /* Typeography */
 
-h1, h4 {
+h1 {
 	
 	text-align: right;
 	text-transform: uppercase;
 	margin: 1px;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-weight: normal;
 }
 
-h2, h5 {
+h4 {
+	text-align: right;
+	text-transform: uppercase;
+	margin: 1px;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: normal;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+}
+
+h5 {
 	margin: auto;
 	text-align: center;
 }
@@ -70,22 +90,23 @@ h2, h5 {
 
 /* Body and Gallery */
 
-#hero {
+/* #hero {
 	max-width: 100%;
 }
-
+*/
 #featured {
 	width: 100%;
 	color: #7d97ad;
 	text-align: left;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	text-transform: none;
 }
 
+/*
 #projects, #hs, #locations {
 	margin: auto;
 	display: block;
 }
-
+*/
 
 
