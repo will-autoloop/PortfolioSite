@@ -1,80 +1,84 @@
 <!DOCTYPE html>
+
 	<html>
-	<head>
-		<title>Udacity Portfolio Project</title>
-		<!-- Define Charset, viewport size and reference stylesheets -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" href="css/custom.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<head>
+			<title>Udacity Portfolio Project</title>
+			<!-- Define Charset, viewport size and reference stylesheets -->
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
 
-		<!-- Reference font for use in Title and Main -->
-		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="css/custom.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 
-	</head>
-	<body>
+			<!-- Reference font for use in Title and Main -->
+			<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		</head>
 
-		<div class="container">
+		<body>
 
-			<header id="header" class="row">
-				<div class="col col-lg-3 col-md-3 col-sm-3 col-xs-3">
-					<img id="logo"  src="img/logo_logo.png" alt="logo">
+			<div class="container">
+
+				<header id="header" class="row">
+					<div class="col col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img id="logo"  src="img/logo_logo.png" alt="logo">
+					</div>
+
+					<!-- added multiple classes to accomodate various structures across viewports -->
+					<div id="title" class="col col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
+						<h1 id="name">William Howell</h1>
+						<h4 id="role">Sr. Program Manager</h4>
+					</div>
+
+				</header>
+
+				<div id="seperator" class="row">
+						<div class="divider col-md-12"></div>
 				</div>
 
-				<!-- added multiple classes to accomodate various structures across viewports -->
-				<div id="title" class="col col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
-					<h1 id="name">William Howell</h1>
-					<h4 id="role">Sr. Program Manager</h4>
-				</div>
+				<main class="row">
+					<section id="hero">
+						<div class="col col-lg-12">
+							<img src="img/hero.jpg" class="img-responsive" alt="Hero Image">
+						</div>
+					</section>
 
-			</header>
+					<section id="featured">
+						<div class="col col-md-12">
+							<h3>Featured Work</h3>
+						</div>
+					</section>
 
-			<div id="seperator" class="row">
-					<div class="divider"></div>
+					<section class="row" id="gallery">
+
+						<div id="skills" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<img id="gallery1" class="img-responsive" src="img/skills_1x.jpg" alt="skills image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Skills List" data-content="Project Management, Rugby Coach, World Traveller">
+							<h2>Skills</h2>
+							<h5><a href="https://www.linkedin.com/in/wdhowell00/" target="_blank">Current Skills</a></h5>
+							<p>Click on the image to see some of my skills</p>
+						</div>
+
+						<div id="locations" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<img id="gallery2" class="img-responsive" src="img/locations_1x.jpg" alt="location image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Locations List" data-content="London, Boston, Hong Kong">
+							<h2>Locations</h2>
+							<h5><a href="https://www.google.com/maps/d/u/0/viewer?mid=1KmPbBv8nYLo2V-LFR1mFF-F1i_Q&hl=en&ll=38.370656331516166%2C-122.99331564999994&z=3" target="_blank">See the Map</a></h5>
+							<p>Click on the image to see some of my locations</p>
+						</div>
+
+						<div id="projects" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+							<img id="gallery3" class="img-responsive" src="img/projects1_1x.jpg" alt="projects image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Projects List" data-content="Udacity Student, HomeScholarz.com, Autoloop.com">
+							<h2>Projects</h2>
+							<h5><a href="https://homescholarz.com" target="_blank">Look at a current project</a></h5>
+							<p>Click on the image to see some of my projects</p>
+						</div>
+
+					</section>
+
+				</main>
+					
 			</div>
 
-			<main>
-				<div id="hero" class="row">
-					<div class="col col-lg-12">
-						<img src="img/hero.jpg" class="img-responsive" alt="Hero Image">
-					</div>
-				</div>
-
-				<div id="featured" class="row">
-					<h3>Featured Work</h3>
-				</div>
-
-				<section class="row" id="gallery">
-
-					<div id="skills" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<img id="gallery1" class="img-responsive" src="img/skills_1x.jpg" alt="skills image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Skills List" data-content="Project Management, Rugby Coach, World Traveller">
-						<h2>Skills</h2>
-						<h5><a href="https://www.linkedin.com/in/wdhowell00/" target="_blank">Current Skills</a></h5>
-						<p>Click on the image to see some of my skills</p>
-					</div>
-
-					<div id="locations" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<img id="gallery2" class="img-responsive" src="img/locations_1x.jpg" alt="location image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Locations List" data-content="London, Boston, Hong Kong">
-						<h2>Locations</h2>
-						<h5><a href="https://www.google.com/maps/d/u/0/viewer?mid=1KmPbBv8nYLo2V-LFR1mFF-F1i_Q&hl=en&ll=38.370656331516166%2C-122.99331564999994&z=3" target="_blank">See the Map</a></h5>
-						<p>Click on the image to see some of my locations</p>
-					</div>
-
-					<div id="projects" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<img id="gallery3" class="img-responsive" src="img/projects1_1x.jpg" alt="projects image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Projects List" data-content="Udacity Student, HomeScholarz.com, Autoloop.com">
-						<h2>Projects</h2>
-						<h5><a href="https://homescholarz.com" target="_blank">Look at a current project</a></h5>
-						<p>Click on the image to see some of my projects</p>
-					</div>
-
-				</section>
-
-			</main>
-				
-		</div>
-
-		<!-- Add links to relevant Javascript files for use in popovers -->
+			<!-- Add links to relevant Javascript files for use in popovers -->
 			<script src="js/jquery-3.2.1.min.js"></script>	
 			<script src="js/bootstrap.min.js"></script>
 
