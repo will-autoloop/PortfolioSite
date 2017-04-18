@@ -1,14 +1,3 @@
-@media (min-width: @screen-sm-min) {
-	#title {
-		text-align: center;
-	}
-
-	#logo {
-		margin: auto;
-		float: center;
-	}
-}
-
 #title {
 	text-align: right;
 	text-transform: uppercase;
