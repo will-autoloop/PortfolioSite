@@ -28,11 +28,28 @@
 	margin-bottom: 10px;
 }
 
-#gallery {
+#gallery1 {
 	margin: auto;
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
 	color: #2d3c49;
+	text-align: center;
+}
+
+#gallery2 {
+	margin: auto;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #2d3c49;
+	text-align: center;
+}
+
+#gallery3 {
+	margin: auto;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #2d3c49;
+	text-align: center;
 }
 
 #skills {
@@ -58,6 +75,10 @@ h3 {
 
 p {
 	font-size: 1em;
+}
+
+img {
+	margin: auto;
 }
 
 
