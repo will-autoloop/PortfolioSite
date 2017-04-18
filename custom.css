@@ -1,0 +1,75 @@
+#title {
+	text-align: right;
+	text-transform: uppercase;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+#name {
+	font-size: 24pt;
+}
+
+.divider {
+	height: 3px;
+	background-color: #7d97ad;
+	width: auto;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+#gallery1 {
+	margin: auto;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #2d3c49;
+	text-align: center;
+}
+
+#gallery2 {
+	margin: auto;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #2d3c49;
+	text-align: center;
+}
+
+#gallery3 {
+	margin: auto;
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #2d3c49;
+	text-align: center;
+}
+
+#skills {
+	text-align: center;
+}
+
+#locations {
+	text-align: center;
+}
+
+#projects {
+	text-align: center;
+}
+
+#featured {
+	font-family: "Julius Sans One", sans-serif;
+	color: #7d97ad;
+}
+
+h3 {
+	margin-left: 15px;
+}
+
+p {
+	font-size: 1em;
+}
+
+img {
+	margin: auto;
+}
+
+
+
+
