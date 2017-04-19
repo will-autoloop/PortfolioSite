@@ -7,10 +7,8 @@
 			<!-- Define Charset, viewport size and reference stylesheets -->
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
-
 			<link rel="stylesheet" type="text/css" href="css/custom.css">
 			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
 			<!-- Reference font for use in Title and Main -->
 			<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 		</head>
@@ -35,21 +33,16 @@
 				<div id="seperator" class="row">
 						<div class="divider col-md-12"></div>
 				</div>
+				<!-- moved gallery id up to the main element -->
+				<main class="row" id="gallery">
 
-				<main class="row">
-					<section id="hero">
-						<div class="col col-lg-12">
-							<img src="img/hero.jpg" class="img-responsive" alt="Hero Image">
-						</div>
+					<section class="col col-lg-12">
+						<img src="img/hero.jpg" class="img-responsive" alt="Hero Image">
 					</section>
-
-					<section id="featured">
-						<div class="col col-md-12">
-							<h3>Featured Work</h3>
-						</div>
+					<!-- moved the col class to the section but also included the featured ID to maintain the typeography required for this text -->
+					<section class="col col-md-12" id="featured">
+						<h3>Featured Work</h3>
 					</section>
-
-					<section class="row" id="gallery">
 
 						<div id="skills" class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
 							<img id="gallery1" class="img-responsive" src="img/skills_1x.jpg" alt="skills image" tabindex="0" data-toggle="popover" data-placement="top" data-trigger="focus" title="Skills List" data-content="Project Management, Rugby Coach, World Traveller">
@@ -71,8 +64,6 @@
 							<h5><a href="https://homescholarz.com" target="_blank">Look at a current project</a></h5>
 							<p>Click on the image to see some of my projects</p>
 						</div>
-
-					</section>
 
 				</main>
 					
